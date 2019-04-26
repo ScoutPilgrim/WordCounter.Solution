@@ -9,6 +9,11 @@ What it Does:
 
 Specifications:
 1. RepeatCounter.cs Specifications
+  * A RepeatCounter object will have these properties:
+    1. UserEnteredWord - A string that is the word the user enters to check the occurence of
+    2. UserSentence - The sentence the user wishes to compare their word to
+    3. SplitList - A List<string> obj that contains all the words of UserSentence
+    4. WordCount - An int that simply represents the number of occurrences of UserEnteredWord in UserSentence
   * A RepeatCounter object has to be constructed with two parameters.
     1. A string that is the word the user wants to WordCheck
     2. A string that is the sentence the user wanted to compare the aforementioned word to
