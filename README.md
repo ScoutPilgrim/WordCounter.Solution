@@ -1,6 +1,6 @@
-#WordCounterSolution
+# WordCounterSolution
 
-###Ian Christner
+### Ian Christner
 
 ### Description
 
@@ -8,7 +8,7 @@ What it Does:
 * Nothing so far, as the user facing aspect of the application is not there.
 
 Specifications:
-1. RepeatCounter.cs Specifications
+1. RepeatCounter.cs Specifications:
   * A RepeatCounter object will have these properties:
     1. UserEnteredWord - A string that is the word the user enters to check the occurence of
     2. UserSentence - The sentence the user wishes to compare their word to
