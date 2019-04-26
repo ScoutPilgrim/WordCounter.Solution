@@ -1,0 +1,17 @@
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.deps.json
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.runtimeconfig.json
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.runtimeconfig.dev.json
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Tests.pdb
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.pdb
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csprojAssemblyReference.cache
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csproj.CoreCompileInputs.cache
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.AssemblyInfoInputs.cache
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.AssemblyInfo.cs
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csproj.CopyComplete
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.dll
+D:\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.pdb
