@@ -18,10 +18,11 @@ Specifications:
     1. A string that is the word the user wants to WordCheck
     2. A string that is the sentence the user wanted to compare the aforementioned word to
   * The user will then want to run the RepeatCounter.GetSplitList() Method. This takes the User's sentence that they input and construct a List Object containing
-  All words within the sentence
+  all words within the sentence
     * For example, if the user sentence was "This is a test", running RepeatCounter.GetSplitList() would generate List<string>{"This", "is", "a", "test"}.
   * After the split list is generated, it is now safe to call the RepeatCounter.WordCheck() Method. This Iterates through a List, and counts how many times the user's word is found
     * For example, if user's word is "test", and the List<string> is {"This", "is", "a", "test"}, the RepeatCounter object's WordCount property will update to 1, as the word "test" was encountered one time.
+    * Expanding on the last example, using the same word but comparing it to the List {"teststst", "testeroo", "testing", "test"}, would yield the same result of 1. We are looking for the exact word, nothing more nothing less. So there is still only 1 instance of "test" here.
 
 #### The MIT License
 
