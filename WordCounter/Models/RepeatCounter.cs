@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace WordCounter.Models
 {
-  public class WordCheck
+  public class RepeatCounter
   {
     private string UserEnteredWord = "";
     private string UserSentence = "";
     private List<string> SplitList = new List<string>();
     private int WordCount = 0;
-    public WordCheck(string userEnteredWord, string userSentence)
+    public RepeatCounter(string userEnteredWord, string userSentence)
     {
       UserEnteredWord = userEnteredWord;
       UserSentence = userSentence;
@@ -20,6 +20,15 @@ namespace WordCounter.Models
       for(int i = 0; i < tempString.Length; i++)
       {
         SplitList.Add(tempString[i]);
+      }
+    }
+    public void WordCheck()
+    {
+      for(int i = 0; i < SplitList.Count; i++)
+      {
+        if(String.Compare(UserEnteredWord, SplitList[i]) == 0){
+          WordCount++;
+        }
       }
     }
     public string GetUserEnteredWord()
