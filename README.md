@@ -24,6 +24,14 @@ Specifications:
     * For example, if user's word is "test", and the List<string> is {"This", "is", "a", "test"}, the RepeatCounter object's WordCount property will update to 1, as the word "test" was encountered one time.
     * Expanding on the last example, using the same word but comparing it to the List {"teststst", "testeroo", "testing", "test"}, would yield the same result of 1. We are looking for the exact word, nothing more nothing less. So there is still only 1 instance of "test" here.
 
+### Set Up
+1. Download .NET Core 2.2.203 SDK and install it.
+2. Download Mono and install it.
+3. How to Run:
+  1. Clone the Repo: $ git clone https://github.com/ScoutPilgrim/WordCounter.Solution
+  2. Change to the cloned directory: $ cd WordCounter.Solution
+  3. To run the program, change into the WordCounter Directory and dotnet build/ dotnet run: $ cd WordCounter $ dotnet build $ dotnet run
+  4. Navigate to localhost:5000 on your browser to view the program.
 #### The MIT License
 
 #### Copyright (c) 2019 Ian Christner

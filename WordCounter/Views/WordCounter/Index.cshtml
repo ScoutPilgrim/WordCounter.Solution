@@ -1,6 +1,6 @@
 @using WordCounter.Models;
 
-<h1>To Do List</h1>
+<h1>Game History</h1>
 
 <ul>
 @if (Model.Count == 0)
@@ -11,7 +11,7 @@
 {
   @foreach (RepeatCounter item in Model)
   {
-    <li><a href='/wordcounter/@item.GetId()'>@item.GetWordCount())</a></li>
+    <li><a href='/wordcounter/@item.GetId()'>@item.GetUserEnteredWord()</a></li>
   }
 }
 </ul>
@@ -19,5 +19,5 @@
 <a href="/wordcounter/new">Play.</a>
 
 <form action="/wordcounter/delete" method="post">
-  <button type="submit" name="button">Clear All Rounds</button>
+  <button type="submit" name="button" class="btn btn-primary">Clear All Rounds</button>
 </form>

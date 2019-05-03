@@ -15,6 +15,8 @@ namespace WordCounter.Models
     {
       UserEnteredWord = userEnteredWord;
       UserSentence = userSentence;
+      this.GenerateSplitList();
+      this.WordCheck();
       _instances.Add(this);
       _id = _instances.Count;
     }
@@ -30,7 +32,7 @@ namespace WordCounter.Models
     {
       return _instances;
     }
-    public void GenerateSplitList()
+    private void GenerateSplitList()
     {
       string[] tempString = UserSentence.Split(" ");
       for(int i = 0; i < tempString.Length; i++)
@@ -38,7 +40,7 @@ namespace WordCounter.Models
         SplitList.Add(tempString[i]);
       }
     }
-    public void WordCheck()
+    private void WordCheck()
     {
       for(int i = 0; i < SplitList.Count; i++)
       {

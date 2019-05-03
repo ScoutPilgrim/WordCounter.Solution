@@ -19,6 +19,12 @@ namespace WordCounter.Controllers
       return View();
     }
 
+    [HttpPost("/wordcounter")]
+    public ActionResult Create(string userword, string usersentence)
+    {
+      RepeatCounter myRepeatCounter = new RepeatCounter(userword, usersentence);
+      return RedirectToAction("Index");
+    }
     [HttpGet("/wordcounter/{id}")]
     public ActionResult Show(int id)
     {
