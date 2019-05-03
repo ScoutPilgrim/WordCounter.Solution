@@ -18,5 +18,18 @@ namespace WordCounter.Controllers
     {
       return View();
     }
+
+    [HttpGet("/wordcounter/{id}")]
+    public ActionResult Show(int id)
+    {
+      RepeatCounter repeatCounter = RepeatCounter.Find(id);
+      return View(repeatCounter);
+    }
+    [HttpPost("/wordcounter/delete")]
+    public ActionResult DeleteAll()
+    {
+      RepeatCounter.ClearAll();
+      return View();
+    }
   }
 }
