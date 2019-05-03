@@ -7,3 +7,5 @@ D:\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.
 D:\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
 D:\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
 D:\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
+D:\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+D:\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
