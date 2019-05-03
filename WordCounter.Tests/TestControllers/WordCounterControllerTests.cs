@@ -43,6 +43,18 @@ namespace WordCounter.Tests
         Assert.IsInstanceOfType(indexView, typeof(ViewResult));
       }
       [TestMethod]
+      public void ShowCorrectModelType_RepeatCounter()
+      {
+        WordCounterController controller = new WordCounterController();
+        RepeatCounter repeatCounter = new RepeatCounter("test", "test");
+        int id = repeatCounter.GetId();
+        ViewResult indexView = controller.Show(id) as ViewResult;
+
+        var result = indexView.ViewData.Model;
+
+        Assert.IsInstanceOfType(result, typeof(RepeatCounter));
+      }
+      [TestMethod]
       public void DeleteAllCorrectView_Test()
       {
         WordCounterController controller = new WordCounterController();
