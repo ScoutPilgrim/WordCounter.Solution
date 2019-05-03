@@ -9,10 +9,26 @@ namespace WordCounter.Models
     private string UserSentence = "";
     private List<string> SplitList = new List<string>();
     private int WordCount = 0;
+    private int _id;
+    private static List<RepeatCounter> _instances = new List<RepeatCounter> {};
     public RepeatCounter(string userEnteredWord, string userSentence)
     {
       UserEnteredWord = userEnteredWord;
       UserSentence = userSentence;
+      _instances.Add(this);
+      _id = _instances.Count;
+    }
+    public static RepeatCounter Find(int searchId)
+    {
+      return _instances[searchId - 1];
+    }
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
+    public static List<RepeatCounter> GetAll()
+    {
+      return _instances;
     }
     public void GenerateSplitList()
     {
@@ -30,6 +46,10 @@ namespace WordCounter.Models
           WordCount++;
         }
       }
+    }
+    public int GetId()
+    {
+      return _id;
     }
     public string GetUserEnteredWord()
     {
