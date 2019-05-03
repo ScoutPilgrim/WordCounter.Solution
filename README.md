@@ -5,7 +5,7 @@
 ### Description
 
 What it Does:
-* Nothing so far, as the user facing aspect of the application is not there.
+* Allows the user to check how many times a word appears in a sentence.
 
 Specifications:
 1. RepeatCounter.cs Specifications:
